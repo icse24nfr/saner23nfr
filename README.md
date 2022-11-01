@@ -31,9 +31,17 @@ This protocol is available at [`/artifacts/Protocol to identify developers profi
 
 <hr>
 
+# Open Coding NFRs (Codes and Categories)
+
 To understand the content of the NFR discussions, we focused on analyzing the titles and descriptions in the PRs discussions. For that purpose, we randomly selected 160 PRs to perform a qualitative analysis. To make sure that we were evaluating all NFRs equally, we divided this analysis based on the total number of each NFR in our dataset. This analysis was performed on the PRs that we knew mentioned the NFRs in the title or description. Through the process of open coding, we generated 35 codes and nine categories that allowed us to understand the content of these titles and descriptions. The list of codes and categories are available at [`/artifacts/Open Coding NFRs.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Open%20Coding%20NFRs.pdf) 
 
 We divided the file into pages to make the reading better. If accepted, we will make available the Miro link with the full board with the codes. The last page contains the whole coding.
+
+<hr>
+
+# Open Coding Developers (Codes and Categories)
+
+We wanted to understand what makes the discuss NFRs. For that purpose, we analyzed other artifacts available (e.g., Github profile and Spring Team page) that could help us to understand what could make these developers be discussing specific NFRs. Our manual analysis through open coding generated 17 codes and 6 categories, which allow us to understand who are these developers. More details about these codes and categories are available at [`/artifacts/Open Coding Developers.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Open%20Coding%20Developers.pdf) 
 
 
 
