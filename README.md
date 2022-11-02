@@ -39,6 +39,38 @@ We divided the file into pages to make the reading better. If accepted, we will 
 
 <hr>
 
+# NFR Sub-Categories
+For each NFR we subdivided them regarding the type of change that was mentioned. That allowed us to understand how many different topics the title and description could address. Following we describe each sub-category.
+
+**Robustness**
+- Error Representability: whether errors are properly represented/specified/thrown
+- Error Propagation: whether the error is properly propagated by either remapping to another error type or directly propagated to upper levels
+- Error Recoverability: whether proper exception handling and clean-up actions are executed after an exception is raised, and the program’s normal behavior returns to a consistent/safe state after those actions are executed.
+
+**Performance**
+- Memory Usage: whether the change increased the memory usage on the application
+- Concurrency (Thread Sync): whether there was a change in the concurrency of the system, by using threads
+- Concurrency (Scheduling): whether there was a change in the concurrency of the system, by using scheduling
+- Response Time: whether the change increased (or decreased) the response time (_e.g._ page loading)
+- Complexity: whether the change increased (or decreased) the the computational complexity
+
+**Security**
+- Customize Parameters: whether the change allow configure security parameters
+- Information Protection: whether the change avoid accessing encrypted addresses
+- Support for New Feature: whether the change support security features (_e.g._ authentication mechanisms) 
+- Inconsistent Behavior: whether the change fix an inconsistent behavior related to security
+
+**Maintainability**
+- Feature Enhancement: whether the change is related to an improvement in the system maintainability 
+- Code Simplification: whether the changes aims at simplify the code, improving its readability
+- Move Component: whether the change focus on moving components that could be highly coupled, hampering the maintainability
+- Documentation: whether the change improves the software documentation
+- Readability: whether the change improves the code readability
+- Extensibility: 
+- Encapsulation: whether the change improves the modules encapsulation 
+
+<hr>
+
 # Open Coding Developers (Codes and Categories)
 
 We wanted to understand what makes the discuss NFRs. For that purpose, we analyzed other artifacts available (e.g., Github profile and Spring Team page) that could help us to understand what could make these developers be discussing specific NFRs. Our manual analysis through open coding generated 17 codes and 6 categories, which allow us to understand who are these developers. More details about these codes and categories are available at [`/artifacts/Open Coding Developers.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Open%20Coding%20Developers.pdf) 
