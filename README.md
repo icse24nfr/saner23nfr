@@ -20,6 +20,27 @@
 
 # Developers Metrics
 
+Aiming to investigate the developers' socio-technical profiles, we computed metrics describing their repository activities and code quality. We computed the metrics by gathering raw data through the GitHub API and performing aggregations to compound more complex metrics. The complete list of metrics are presented below:
+
+- Number of PRs merged
+- Number of PRs opened
+- Number of PRs closed
+- Mean time between merged PRs
+- Number of Commits
+- Average size of commits (Size in terms of source file)
+- Number of commits with .XML files
+- Number of commits with .Java files
+- Number of reviews
+- Number of lines revised
+- Number of modules revised
+- Number of refactorings
+- Number of comments
+- Mean time between developer comments
+- Mean discussion duration (when the developer participates)
+- Mean number of words from the developer' messages on PR discussions
+- Total number of words from the developer' messages on PR discussions
+- Experience in days (From the first contribution to the last)
+
 <hr>
 
 # Developers' Inspection Protocol
