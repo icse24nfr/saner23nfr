@@ -1,5 +1,6 @@
-# How Do Software Developers Discuss Non-Functional Requirements?: The Case of the Spring Ecosystem
-## Complementary Material
+# How Do Software Developers Discuss Non-Functional Requirements ? The Case of the Spring Ecosystem
+
+# Complementary Material
 
 # Abstract
 
