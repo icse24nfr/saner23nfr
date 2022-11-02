@@ -43,5 +43,13 @@ We divided the file into pages to make the reading better. If accepted, we will 
 
 We wanted to understand what makes the discuss NFRs. For that purpose, we analyzed other artifacts available (e.g., Github profile and Spring Team page) that could help us to understand what could make these developers be discussing specific NFRs. Our manual analysis through open coding generated 17 codes and 6 categories, which allow us to understand who are these developers. More details about these codes and categories are available at [`/artifacts/Open Coding Developers.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Open%20Coding%20Developers.pdf) 
 
+<hr>
+
+# Identification Protocol and NFR Complementary Material
+
+The process of NFR identification by a single author can be posed as a threat. Although all authors are experienced with the NFRs explored in this study, we also provided complementary material with details about these NFRs to avoid misclassifications. This material is available at [`/artifacts/Protocol NFR Identification.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Protocol%20NFR%20Identification.pdf) 
+
+
+
 
 
