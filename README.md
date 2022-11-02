@@ -92,6 +92,34 @@ For each NFR we subdivided them regarding the type of change that was mentioned.
 
 <hr>
 
+# Developers' NFR Metrics
+
+We selected developers who had high participation on specific tasks. With this approach, we defined 15 developers to perform an investigation of their profiles. We computed the following metrics:
+
+participates_: Number of times that the developer participates in a discussion related to the NFR (e.g. participates_security: 10, means that the developer participated in 10 discussions related to security)
+opened_discussion_: Number of times that the developer opened discussions related to the NFR
+commented_: Number of times that the developer commented on discussions related to the NFR
+reviews_: Number of times that the developer reviewed source code on discussions related to the NFR
+commited_: Number of times that the developer had commits linked to discussions related to the NFR
+opened_discussion_: Number of times that the developer opened discussions related to the NFR
+opened_discussion_: Number of times that the developer opened discussions related to the NFR
+None indicates the number of times that the developer did not participated in any task related to the NFRs All NFRs is the total sum for the tasks regarding the four NFRs
+
+For each metric we computed the quartiles and indicated whether the developer was part of the high, low, or medium quartile. The never tag is marked as True when the developer never performs the task for the correspondent NFR. To exemplify, let us consider the following metrics:
+
+```
+"reviewed_robustness_high": true,
+"reviewed_robustness_low": false,
+"reviewed_robustness_medium": false,
+"reviewed_robustness_never": false
+```
+  
+In this case, the developer had a high rate of reviews related to Robustness when compared to other developers in the same system. 
+
+The list with these metrics for all developers are available at (...)
+
+<hr>
+
 # Open Coding Developers (Codes and Categories)
 
 We wanted to understand what makes the discuss NFRs. For that purpose, we analyzed other artifacts available (e.g., Github profile and Spring Team page) that could help us to understand what could make these developers be discussing specific NFRs. Our manual analysis through open coding generated 17 codes and 6 categories, which allow us to understand who are these developers. More details about these codes and categories are available at [`/artifacts/Open Coding Developers.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Open%20Coding%20Developers.pdf) 
