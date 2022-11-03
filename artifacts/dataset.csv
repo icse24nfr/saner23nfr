@@ -1,4 +1,4 @@
-NUMBER_ISSUE,SYSTEM,URL,NFR_TYPE,PHRASE,KEYWORDS,LOCATION,OBS
+NUMBER_PR,SYSTEM,URL,NFR_TYPE,PHRASE,KEYWORDS,LOCATION,OBS
 4119,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4119,None,-,-,-,Added support for detecting the DB2 Universal JDBC driver
 3160,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3160,Maintainability,"""Fix default value""","""fix default""",Title,
 4618,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4618,Maintainability,""" be a little brittle and had to maintain""","""maintain""",Discussion,-
