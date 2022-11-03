@@ -121,7 +121,7 @@ The list with these metrics for all developers are available at (...)
 
 <hr>
 
-# Developers Profile (Clusterization)
+# Developers' Profile (Clusterization)
 
 To understand the developer's socio-technical profile, we clusterize them. Below, we made available the code used for clusterization and analysis.
 
