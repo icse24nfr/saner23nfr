@@ -121,6 +121,16 @@ The list with these metrics for all developers are available at (...)
 
 <hr>
 
+# Developers Profile (Clusterization)
+
+To understand the developer's socio-technical profile, we clusterize them. Below, we made available the code used for clusterization and analysis.
+
+* [Colab for the SpringBoot dev's clusterization.](https://colab.research.google.com/drive/1aURN4nfoWLs72ok3xiA-1mMEbFcyblba?usp=sharing)
+* [Colab for the SpringFramework dev's clusterization.](https://colab.research.google.com/drive/1KBZz0CByU1XIm1EdqmiNLUxpekJhZSfD?usp=sharing)
+* [Colab for the SpringSecurity dev's clusterization.](https://colab.research.google.com/drive/1UJLfiF9nU6IZ1kU7j_9VJmFEEVLf2SBf?usp=sharing)
+
+<hr>
+
 # Open Coding Developers (Codes and Categories)
 
 We wanted to understand what makes the discuss NFRs. For that purpose, we analyzed other artifacts available (e.g., Github profile and Spring Team page) that could help us to understand what could make these developers be discussing specific NFRs. Our manual analysis through open coding generated 17 codes and 6 categories, which allow us to understand who are these developers. More details about these codes and categories are available at [`/artifacts/Open Coding Developers.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Open%20Coding%20Developers.pdf) 
