@@ -133,7 +133,7 @@ The process of NFR identification by a single author can be posed as a threat. A
 
 <hr>
 
-# Dataset and Keywords
+# Dataset
 
 We provide a dataset with 1,383 PR discussions classified in terms of NFR presence. After manual classification, we built a dataset composed of PR
 discussions, each one classified in terms of (i) the presence of the NFRs type addressed, (ii) the location in the PR where the discussions are triggered, (iii) keywords mentioned in the discussion, and (iv) discussion content addressing the NFR. This classification allowed us to characterize the PR discussions and identify the developers discussing NFRs. The dataset is available at This material is available at [`/artifacts/dataset.csv`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/dataset.csv) 
@@ -153,5 +153,17 @@ In our dataset, we have:
 - 393 PR discussions related to **Security**
 - 336 PR discussions related to **Robustness**
 - 195 PR discussions related to **Performance**
+
+# Keywords
+
+We provide a curated subset of common keywords related to NFRs derived from manual analysis. This content may help future investigations on the conceiving, training, and validation of NFRs classification technologies. The keywords are available at  [`/artifacts/Keywords.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Keywords.pdf).
+
+The file contains the list of keywords for each NFR. We divided these keywords into two groups: (i) single keywords, and (ii) composed sentences keywords. The second group has combinations of keywords that can reinforce the presence of the NFR, due to its context. 
+
+For each NFR, we also ranked the keywords according to the number of times that the keywords appeared on our manual classification. For instance, the `cleanup` keyword appeared 15 times when we were classificating maintainability PRs. 
+
+The `*` represents that this keyword can have multiple variations. For instance, `doc*` can be related to _documentation_, _document_, _documenting_, and so on.
+
+
 
 
