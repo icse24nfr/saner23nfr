@@ -131,7 +131,27 @@ We wanted to understand what makes the discuss NFRs. For that purpose, we analyz
 
 The process of NFR identification by a single author can be posed as a threat. Although all authors are experienced with the NFRs explored in this study, we also provided complementary material with details about these NFRs to avoid misclassifications. This material is available at [`/artifacts/Protocol NFR Identification.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Protocol%20NFR%20Identification.pdf) 
 
+<hr>
 
+# Dataset and Keywords
 
+We provide a dataset with 1,383 PR discussions classified in terms of NFR presence. After manual classification, we built a dataset composed of PR
+discussions, each one classified in terms of (i) the presence of the NFRs type addressed, (ii) the location in the PR where the discussions are triggered, (iii) keywords mentioned in the discussion, and (iv) discussion content addressing the NFR. This classification allowed us to characterize the PR discussions and identify the developers discussing NFRs. The dataset is available at This material is available at [`/artifacts/dataset.csv`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/dataset.csv) 
+
+The .csv file is structured with the following columns
+- **NUMBER_PR**: The number from the PR analyzed
+- **SYSTEM**: The system analyzed
+- **URL**: The URL from the PR analyzed
+- **NFR_TYPE**: The NFR type identified in the PR discussion
+- **PHRASE**: The phrase that led to the NFR classification
+- **KEYWORDS**: The keywords related to the NFR present in the discussion
+- **LOCATION**: The location where the mention of the NFR was present (_e.g._ title, description)
+- **OBS**: Observations regarding the discussion
+
+In our dataset, we have:
+- 609 PR discussions related to **Maintainability**
+- 393 PR discussions related to **Security**
+- 336 PR discussions related to **Robustness**
+- 195 PR discussions related to **Performance**
 
 
