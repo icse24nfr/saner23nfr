@@ -97,13 +97,13 @@ For each NFR we subdivided them regarding the type of change that was mentioned.
 
 We selected developers who had high participation on specific tasks. With this approach, we defined 15 developers to perform an investigation of their profiles. We computed the following metrics:
 
-participates_: Number of times that the developer participates in a discussion related to the NFR (e.g. participates_security: 10, means that the developer participated in 10 discussions related to security)
-opened_discussion_: Number of times that the developer opened discussions related to the NFR
-commented_: Number of times that the developer commented on discussions related to the NFR
-reviews_: Number of times that the developer reviewed source code on discussions related to the NFR
-commited_: Number of times that the developer had commits linked to discussions related to the NFR
-opened_discussion_: Number of times that the developer opened discussions related to the NFR
-opened_discussion_: Number of times that the developer opened discussions related to the NFR
+- **participates_[NFR]**: Number of times that the developer participates in a discussion related to the NFR (e.g. participates_security: 10, means that the developer participated in 10 discussions related to security)
+- **opened_discussion_[NFR]**: Number of times that the developer opened discussions related to the NFR
+- **commented_[NFR]**: Number of times that the developer commented on discussions related to the NFR
+- **reviews_[NFR]**: Number of times that the developer reviewed source code on discussions related to the NFR
+- **commited_[NFR]**: Number of times that the developer had commits linked to discussions related to the NFR
+- **opened_discussion_[NFR]**: Number of times that the developer opened discussions related to the NFR
+- **opened_discussion_[NFR]**: Number of times that the developer opened discussions related to the NFR
 None indicates the number of times that the developer did not participated in any task related to the NFRs All NFRs is the total sum for the tasks regarding the four NFRs
 
 For each metric we computed the quartiles and indicated whether the developer was part of the high, low, or medium quartile. The never tag is marked as True when the developer never performs the task for the correspondent NFR. To exemplify, let us consider the following metrics:
