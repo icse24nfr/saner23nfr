@@ -102,7 +102,7 @@ We selected developers who had high participation on specific tasks. With this a
 - **commented_[NFR]**: Number of times that the developer commented on discussions related to the NFR
 - **reviews_[NFR]**: Number of times that the developer reviewed source code on discussions related to the NFR
 - **commited_[NFR]**: Number of times that the developer had commits linked to discussions related to the NFR
-- 
+
 None indicates the number of times that the developer did not participated in any task related to the NFRs All NFRs is the total sum for the tasks regarding the four NFRs
 
 For each metric we computed the quartiles and indicated whether the developer was part of the high, low, or medium quartile. The never tag is marked as True when the developer never performs the task for the correspondent NFR. To exemplify, let us consider the following metrics:
