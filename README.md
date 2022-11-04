@@ -116,7 +116,7 @@ For each metric we computed the quartiles and indicated whether the developer wa
   
 In this case, the developer had a high rate of reviews related to Robustness when compared to other developers in the same system. 
 
-The list with these metrics for all developers are available at (...)
+The list with these metrics for all developers are available at [`/artifacts/metrics/`](https://github.com/saner23nfrdiscussions/saner23nfr/tree/main/artifacts/metrics) 
 
 <hr>
 
